@@ -111,10 +111,8 @@ input[type="radio"],input[type="checkbox"]{margin-right:5px;vertical-align: midd
 	margin:0 auto;
 	position:relative;
 	z-index:1;
-	min-height:400px;
-	_height:400px;
+	min-height:100px;
 	padding: 10px;
-	_padding: 10px 0 0 18px;
 }
 
 .page {

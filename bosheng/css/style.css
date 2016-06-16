@@ -1875,3 +1875,95 @@ left:2px;}
     height:400px;
     border: 1px solid #f5f3f0;
 }
+
+.invite-box{
+    margin-top: 90px;
+}
+
+.invite-box .main-wrap{
+    width: 890px;
+}
+
+.__invite-fl{
+    width: 50%;
+    color: #333;
+}
+
+.__invite-fl .__p1{
+    font-size: 16px;
+}
+
+.__invite-fl .__invite-box{
+    margin-top: 50px;
+}
+
+.__invite-fl .__invite-box .__tit{
+    font-weight: bold;
+    font-size: 16px;
+}
+.__invite-fl .__invite-box .__content{
+    margin-left:30px;
+    margin-top:10px;
+}
+
+.__invite-fl .__invite-box .__content li{
+    line-height:1.7;
+    font-size: 12px;
+}
+
+.__invite-fr{
+    width: 50%;
+}
+
+.__invite-fr .__tit{
+    font-size: 40px;
+    color: #ff9e05;
+    font-weight: bold;
+}
+.__invite-fr .__sec-tit{
+    font-size: 18px;
+    color: #ff9e05;
+    margin-top:50px;
+    font-weight: bold;
+}
+
+.__position-work{
+    margin-top:20px;
+    position: relative;
+}
+
+.__position-work .__img{
+    background: url("../images/position_work_bg.png") no-repeat 105px center;
+    height:708px;
+}
+.__position-work span{
+    position: absolute;
+    left:0;
+    bottom:233px;
+    font-size: 12px;
+    color: #ff9e05;
+    font-weight: bold;
+}
+
+.__join-us{
+    background: url("../images/join_us_bg.png") no-repeat right -2px;
+    padding-right: 30px;
+    background-size: 20px;
+    display: inline-block;
+    height: 30px;
+    color: #ff9e05;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.__join-us:hover{
+    color: #ff9e05;
+}
+
+.__invite-bt{
+    background: url("../images/position_work_bg2.png") no-repeat center;
+    height:332px;
+    width: 100%;
+    margin-top:-45px;
+}

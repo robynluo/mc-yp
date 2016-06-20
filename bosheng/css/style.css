@@ -380,6 +380,9 @@
     padding: 40px 11px;
     text-align: center;
     margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .__case-list li .-pic{
@@ -401,6 +404,27 @@
     font-size: 14px;
 }
 
+.__case-list li .-modal{
+    position: absolute;
+    left:0;
+    bottom:-281px;
+    width:100%;
+    height:100%;
+    background: url("../images/opacity_0.png") repeat;
+}
+
+.__case-list li .-modal .-info{
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.7;
+    position: relative;
+    top: 50%;
+    margin-top: -66px;
+    height:132px;
+}
 
 #nav .-info .share a{
     display: inline-block;
@@ -1951,6 +1975,13 @@ left:2px;}
     font-size: 20px;
     font-weight: bold;
     margin-top: 60px;
+}
+
+.__join-hr{
+    color: #ff9e05;
+    font-size: 16px;
+    line-height:1.5;
+    margin-top: 20px;
 }
 
 .__join-us:hover{

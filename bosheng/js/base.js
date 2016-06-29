@@ -12,14 +12,14 @@ $(function(){
 	//	$(this).scrollTop()>100?topNav.stop(false,true).addClass("active"):topNav.stop(false,true).removeClass("active");
 	//});
 
-	$(".__case-list li").hover(function(){
-		$(this).find(".-modal").animate({
-			'bottom':"0"
-		},500);
-	},function(){
-		$(this).find(".-modal").animate({
-			'bottom':"-281px"
-		},500);
-	});
+	//$(".__case-list li").hover(function(){
+	//	$(this).find(".-modal").animate({
+	//		'bottom':"0"
+	//	},500);
+	//},function(){
+	//	$(this).find(".-modal").animate({
+	//		'bottom':"-281px"
+	//	},500);
+	//});
 });
 
